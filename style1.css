@@ -1,9 +1,10 @@
 body {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, #37ab06 0%, #1e2128 100%);
+    background: linear-gradient(135deg, #45dc04 0%, #1e2128 100%);
     color: #fff;
     min-height: 100vh;
     line-height: 1.6;
+    
 }
 .container{
     max-width: 1200px;
@@ -36,12 +37,13 @@ header{
 }
 #one{
     margin-left: 250px;
+    color:rgb(0, 0, 0)
     
 }
 .card11{
     margin-left: 250px;
     width: 300px;
-    box-shadow: 0 10px 42px rgb(0, 0, 0);
+    box-shadow: 0 10px 42px rgba(0, 0, 0, 0.603);
 
 }
 .imgg-fit{
@@ -56,6 +58,7 @@ header{
 }
 #two{
     margin-left: 600px;
+    color: #1e2128;
 }
 .imgkk-fit{
     display:flex;
@@ -68,11 +71,12 @@ header{
 }
 #three{
     margin-left: 1000px;
+    color: black;
 
 }
 .card1{
     margin-left: 250px;
-    width: 300px;
+    width: 400px;
     box-shadow: 0 10px 42px rgb(0, 0, 0);
    
 
@@ -80,20 +84,47 @@ header{
 .card2{
     margin-left: 600px;
     box-shadow: 0 8px 32px rgb(0, 0, 0);
-    width: 300px;
+    width: 400px;
 
 }
 .card3{
     margin-left: 1000px;
      box-shadow: 0 8px 32px rgb(0, 0, 0);
-     width: 300px;
+     width: 400px;
 }
 button:hover{
-    border: solid rgba(255, 238, 47, 0.823);
-    transform: translateY(4px);
+
+    transform: translateX(4px);
+    background-color: #45dc04;
 }
 button{
-    border:solid saddlebrown
-    
-    
+    border-radius: 50%;
+    border:solid black,2px,
+}
+#SoilWB{
+    margin-left: 250px;
+    width: 400px;
+    box-shadow: 0 10px 42px rgb(0, 0, 0);
+}
+#toolsWB{
+    margin-left: 600px;
+    box-shadow: 0 8px 32px rgb(0, 0, 0);
+    width: 400px;
+}
+#seedsWB{
+    margin-left: 1000px;
+    box-shadow: 0 8px 32px rgb(0, 0, 0);
+    width: 400px;
+}
+h1 span{
+    display:inline-block;
+}
+#myBtn1{
+    width: 100px;
+}
+#myBtn2{
+    width: 100px;
+}
+#myBtn3{
+    width: 100px;
 }
