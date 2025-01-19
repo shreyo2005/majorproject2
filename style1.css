@@ -1,0 +1,99 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #37ab06 0%, #1e2128 100%);
+    color: #fff;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    height: 120px;
+    margin-top: 30px;
+    
+}
+header{
+    text-align: center;
+    margin-left: 600px;
+    position: relative;
+    background: radial-gradient(circle at top, rgb(3, 204, 30) 0%, transparent 80%)
+}
+.image-fit{
+    width:1500px;
+    height:300px;
+    display:flex;
+    object-fit: cover;
+}
+.imgh-fit{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 250px;
+    border: solid black;
+}
+#one{
+    margin-left: 250px;
+    
+}
+.card11{
+    margin-left: 250px;
+    width: 300px;
+    box-shadow: 0 10px 42px rgb(0, 0, 0);
+
+}
+.imgg-fit{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 600px;
+    margin-top: 30px;
+    border: solid black;
+    
+}
+#two{
+    margin-left: 600px;
+}
+.imgkk-fit{
+    display:flex;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    margin-left: 1000px;
+    margin-top: 30px;
+    border:solid black
+}
+#three{
+    margin-left: 1000px;
+
+}
+.card1{
+    margin-left: 250px;
+    width: 300px;
+    box-shadow: 0 10px 42px rgb(0, 0, 0);
+   
+
+}
+.card2{
+    margin-left: 600px;
+    box-shadow: 0 8px 32px rgb(0, 0, 0);
+    width: 300px;
+
+}
+.card3{
+    margin-left: 1000px;
+     box-shadow: 0 8px 32px rgb(0, 0, 0);
+     width: 300px;
+}
+button:hover{
+    border: solid rgba(255, 238, 47, 0.823);
+    transform: translateY(4px);
+}
+button{
+    border:solid saddlebrown
+    
+    
+}
