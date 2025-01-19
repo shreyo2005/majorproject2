@@ -49,16 +49,9 @@ gsap.to("#seeds1",{
     duration:1,
     repeat:-1,
     yoyo:true
-    
 });
 
     
     
-})
 
-tl.from("h2",{
-    y:-30,
-    opacity:0,
-    duration:1,
-    stagger:0.35,
-})
+
