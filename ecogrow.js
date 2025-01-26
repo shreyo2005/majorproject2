@@ -62,15 +62,29 @@ gsap.to("#seeds1",{
 });
 document.getElementById("myBtn1").addEventListener("click",function(){
     let text=document.getElementById("text1");
+    //let closeBtn1=document.getElementById("closeBtn1");
     if(text.style.display==="none"){
         text.style.display="block";
+       
     }else{
         text.style.display="none";
-    }
-
-
-
+        
+}
 });
+document.getElementById("closeBtn1").addEventListener("click",function(){
+    let text=document.getElementById("text1");
+    let closeBtn1=document.getElementById("closeBtn1");
+    closeBtn1.style.display="none";
+    if(text.style.display==="block"){
+        text.style.display="none";
+        closeBtn1.style.display="block";
+    }else{
+        text.style.display="block";
+        closeBtn1.style.display="none";
+
+    }
+});
+
 document.getElementById("myBtn2").addEventListener("click",function(){
     let text2=document.getElementById("text2");
     if(text2.style.display==="none"){
@@ -124,3 +138,76 @@ gsap.from("h1 span",{
     delay:0.2,
     stagger:-0.7
 });
+document.getElementById("closeBtn2").addEventListener("click",function(){
+    let text=document.getElementById("text2");
+    let closeBtn2=document.getElementById("closeBtn2");
+    closeBtn2.style.display="none";
+    if(text.style.display==="block"){
+        text.style.display="none";
+        closeBtn2.style.display="block";
+    }else{
+        text.style.display="block";
+        closeBtn2.style.display="none";
+
+    }
+});
+document.getElementById("closeBtn3").addEventListener("click",function(){
+    let text=document.getElementById("text3");
+    let closeBtn3=document.getElementById("closeBtn3");
+    closeBtn3.style.display="none";
+    if(text.style.display==="block"){
+        text.style.display="none";
+        closeBtn3.style.display="block";
+    }else{
+        text.style.display="block";
+        closeBtn3.style.display="none";
+
+    }
+});
+gsap.to("#signup",{
+    x:30,
+    duration:2,
+    delay:2,
+    borderRadius:"10%",
+});
+gsap.from("#signup",{
+    x:30,
+    duration:2,
+    delay:2,
+    borderRadius:"5%",
+});
+
+    //function showAlert(event) { background-color:rgb(33, 154, 114);
+        //alert("Signed up succesfully!");
+    //}
+
+    //document.getElementById("ph3").addEventListener("click",showAlert);
+        
+// function confirmPassword(){
+    //let password= document.getElementById("ph2");
+    //let confirmpassword=document.getElementById("ph6");
+
+    //if(password!=confirmpassword){
+        //alert("password does not match");
+        //return false;
+    //}
+//}  
+// confirmPassword();
+
+
+function showAlert(event) {
+    alert("Signed up succesfully!");
+}
+document.getElementById("ph3").addEventListener("click",showAlert);
+
+//document.getElementById("signup").addEventListener("submit",function(event){
+    //event.preventDefault();
+    //document.getElementById("signup").classList.remove("hidden");
+    //document.getElementById("SM").classList.add("hidden");
+
+    //setTimeout(()=>{
+        //document.getElementById("LS").classList.add("hidden");
+        //document.getElementById("SM").classList.remove("hidden");
+ //}, 2000 );
+//});
+
